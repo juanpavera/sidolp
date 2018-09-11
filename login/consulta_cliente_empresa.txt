@@ -1,0 +1,12 @@
+SELECT c.ci, c.extension, concat( nombres, ' ', paterno, ' ', materno ) AS cliente, emp.nombre, emp.id_empresa
+FROM clientes AS c, empresas AS emp
+WHERE emp.id_empresa = c.id_empresa
+AND c.ci =5685485
+AND c.extension = 'LP'
+and c.id_empresa=1
+
+CM-B07130
+
+select cr.id_correos, cr.email, cr.fecha_Creacion,emp.nombre
+where cr.id_empresa=emp.id_empresa
+order by cr.id_correos asc
