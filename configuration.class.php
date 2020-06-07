@@ -6,7 +6,7 @@ class ConfigurationSidolp
 	public $password = '';
 	public $db       = 'sidolp';
 	public $dbPrefix = '';
-	public $mailFrom = 'jvera@coboser.com';
+	public $mailFrom = 'aaa@ddd.com';
 	public $fromName = 'root';
 	public $lang     = 'es-bo';
 	
