@@ -13,5 +13,8 @@
 		<div class="col-md-12 col-xs-12">
 			<img src="images/slide/OH1E453.jpg" alt="img4" width="100%">
 		</div>
+        <div class="col-md-12 col-xs-12">
+            <img src="images/slide/OH1E453.jpg" alt="img4" width="100%">
+        </div>
 	</div>
 </div>
