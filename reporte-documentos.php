@@ -168,19 +168,4 @@
             updateEndDate();
         }
     });
-
-  var ssdPicker = new Pikaday(
-      {
-          field: document.getElementById('fecha_fin'),
-          trigger: document.getElementById('fecha_fin_ico'),
-          format: 'YYYY-MM-DD',
-          minDate: new Date(document.getElementById('fecha_ini').value),
-          maxDate: new Date(2035,01,01),
-          yearRange: [2016,2035],
-          onSelect: function() {
-              console.log(this.getMoment().format('Do MMMM YYYY'));
-              endDate = this.getDate();
-              updateEndDate();
-          }
-      });
 </script>
